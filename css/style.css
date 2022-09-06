@@ -8,9 +8,18 @@ body {
 }
 .card-shadow {
   box-shadow: 5px 5px 10px #a9a9aa77, inset -5px -5px 10px #ffffff7e;
-  background: #f2f2f3;
-  border-radius: 12px;
+  background: #f4fafd;
+  border-radius: 15px;
 }
+.background {
+  background-color: #289bde;
+}
+.text-color {
+  color: #289bde;
+}
+/* .explore {
+  background-color: #f4fafd;
+} */
 /* Utilities Styles Ends */
 .slider-info {
   background-color: rgba(0, 0, 0, 0.4);
