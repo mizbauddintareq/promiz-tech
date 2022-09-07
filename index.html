@@ -361,12 +361,85 @@
               </p>
             </div>
             <div class="col-lg-3 col-12">
-              <button class="btn btn-light px-4 py-2">
-                <a href="#" class="fw-bold text-color text-decoration-none"
-                  >See More Courses</a
+             <!-- Button trigger modal -->
+    <button
+      type="button"
+      class="btn btn-light text-color fw-bold px-4 py-2"
+      data-bs-toggle="modal"
+      data-bs-target="#exampleModal"
+    >
+      Register Now
+    </button>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-color" id="exampleModalLabel">
+              Please Register Here
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label text-secondary"
+                  >Email address</label
                 >
-              </button>
-            </div>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="Please enter your email here"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label text-secondary"
+                  >Password</label
+                >
+                <input
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                  placeholder="Please enter your password"
+                />
+              </div>
+              <select class="form-select text-secondary" aria-label="Default select example">
+                <option selected>Select Your Course</option>
+                <option value="1">UI/UX Design</option>
+                <option value="2">Fullstack Web Development</option>
+                <option value="3">Digital Marketing</option>
+                <option value="3">Motion Graphics</option>
+                <option value="3">Photography</option>
+              </select>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
           </div>
         </div>
       </section>
@@ -518,7 +591,7 @@
 
       <!-- FAQ Section Starts -->
       <section class="container my-5">
-        <div class="text-center my-5">
+        <div class="text-center my-5 ">
           <h1>Frequently Asked Questions</h1>
           <p>
             It is a long established fact that a reader will be distracted by
